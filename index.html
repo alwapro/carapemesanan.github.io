@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cara Pemesanan</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/fa08912836.js" crossorigin="anonymous"></script>
+</head>
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="carapemesanan.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">Cara Pemesanan</h1>
+                <p> A. TAHAP KONSULTAN<br><br>
+
+                    Klien memberikan data-data yang diperlukan<br>
+                    a. Lokasi Lahan<br>
+                    b. Ukuran Lahan<br>
+                    c. Style Rumah yang disukai<br>
+                    d. Rencana Budget Pembangunan<br>
+                    e. Rincian Kebutuhan Ruangan 1 Lantai/2lantai<br><br>
+
+                    Tim akan memberikan sket denah penawaran berdasarkan perkiraan luasan bangunan yang di
+                    pelukan.<br><br>
+
+                    B. TAHAP PEMBAYARAN PAKET ARSITEKTUR + INTERIOR
+                    (UNTUK MELIHAT DAFTAR PAKET BISA DI LIHAT DARI DAFTAR HARGA LAYANAN)<br><br>
+                    1. PEMBAYARAN TAHAP PERTAMA<br><br>
+
+                    Jika klien menyetujui penawaran, maka klien melakukan Pembayaran Tahap I.<br><br>
+
+                    Konsultasi lanjutan dimulai (konsultasi mengenai konsep denah) dan pembuatan konsep denah, khusus
+                    pada tahap ini, revisi denah dipersilahkan dan tidak di batasi. Setelah konsep denah disetujui,
+                    selanjutnya adalah pembuatan 3D model (masuk ke tahap2)<br><br>
+
+                    2. PEMBAYARAN TAHAP KEDUA<br><br>
+
+                    Klien melakukan Pembayaran Tahap II untuk pembuatan:<br>
+                    Gambar Model tiga dimensi (3D). Gambar 3D bangunan menentukan ketinggian bangunan, bentuk bangunan,
+                    serta style bangunan.
+                    Model tiga dimensi dan gambar render tiga dimensi sangatlah penting dalam perencanaan tata ruang.
+                    Dengan teknologi 3D, Klien yang awam mengenai teknis bangunan pun akan memiliki pemahaman lebih baik
+                    terhadap bentuk bangunan baik exterior maupun interior, sehingga dapat menghindarkan salah paham
+                    antara Klien, Arsitek, maupun Kontraktor. Pada tahap ini, jika belum cocok dengan bentuk bangunan,
+                    Klien hanya dapat melakukan revisi tampilan.<br><br>
+
+                    3. PEMBAYARAN TAHAP KETIGA<br><br>
+
+                    Klien melakukan Pembayaran Tahap III / Pelunasan untuk pembuatan:<br>
+                    NB: pada Tahap ini tidak diperkenankan lagi ada revisi Exterior, jika ada revisi Exterior lagi akan
+                    dikenakan biaya tambah. Sedangkan konsultasi Desain Interior dan revisinya (Revisi Max 2x) dapat
+                    dimulai.<br>
+                    -Gambar Visual Render Halus Exterior (Visual Final Exterior):<br>
+                    -Gambar Denah Interior setiap ruangan.<br>
+                    -Gambar 3D & visual interior setiap ruangan, dimana klien akan dibuatkan view pencahayaan
+                    ruangan.<br>
+                    -Gambar kerja / Gambar Teknis Arsitektur yang diperlukan oleh tim pelaksana / kontraktor / pemborong
+                    sebagai acuan dalam proses pembangunan.<br><br>
+
+                    4. PEMBAYARAN TAHAP KEEMPAT<br><br>
+
+                    -Gambar 3D render Interior final visual (versi 3Ds Max) setiap ruangan.<br>
+                    -Gambar kerja / gambar teknis yang diperlukan oleh tim pelaksana / kontraktor / pemborong
+                    sebagai<br>
+                    acuan dalam proses pembuatan interior, pada Tahap ini tidak diperkenankan lagi ada revisi Exterior
+                    maupun Interior, jika ada revisi lagi akan dikenakan biaya tambah.<br>
+                    a. Potongan / Tampak Detail Ruangan<br>
+                    b. Gambar Teknis Detail Furniture<br>
+                    c. RAB (Rencana Anggaran Biaya)<br>
+                    -Penyerahan file final yang akan diberikan adalah :<br>
+                    a. Print Out A3 Gambar Teknis / Gambar Kerja Arsitektur, Struktur, Elektrikal Plumbing Basic.<br>
+                    b. Print Out A3 Gambar Teknis / Gambar Kerja Interior Detail<br>
+                    c. Flash Disk dengan softcopy dari file yang sudah disepakati.<br><br>
+
+                    Jika semua file sesuai penawaran sudah diterima oleh klien maka tahap desain dinyatakan telah
+                    selesai dan klien siap melakukan tender atau menggunakan jasa kontraktor sesuai pilihan</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<div id="portfolio">
+    <div class="container">
+        <a href="http://127.0.0.1:5501/index.html#header" class="btn">Home</a>
+    </div>
+</div>
+<!-- contact -->
+<div id="contact">
+
+    <div class="copyright">
+        <p>Copyright © Gendis. AlwaProject | realdesign.</p>
+    </div>
+
+</div>
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname) {
+        for (tablink of tablinks) {
+            tablink.classList.remove("active-link");
+        }
+        for (tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu() {
+        sidemeu.style.right = "0";
+    }
+    function closemenu() {
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+
+<body>
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbw5NWZwy7-zjBkRPdrEET-NZ-DNtoPvkQFCpCVi_0Fk-45dzDLTZU0TMnj9Hv6RfTiP/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent succesfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({ offset: 0 });
+    </script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
